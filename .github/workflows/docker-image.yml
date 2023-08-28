@@ -48,10 +48,3 @@ jobs:
           service: ${{env.ECS_SERVICE}}
           cluster: ${{env.ECS_CLUSTER}}
           wait-for-service-stability: true
-
-      - name: Task Def
-        uses: aws-actions/amazon-ecs-render-task-definition@v1
-        with:
-          task-definition: task-defenition.yml
-          container-name: nginx
-          image: ghcr.io/mazenn99/nginx:latest
