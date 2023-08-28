@@ -4,6 +4,9 @@
     {
       "name": "nginx",
       "image": "ghcr.io/mazenn99/nginx:latest",
+      "repositoryCredentials": {
+        "credentialsParameter": "arn:aws:secretsmanager:me-south-1:624445658885:secret:ghcrToken-YYtOeN"
+      },
       "cpu": 0,
       "portMappings": [
         {
