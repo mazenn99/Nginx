@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: me-south-1
-  ECS_SERVICE: Nginx
+  ECS_SERVICE: NginxWeb
   ECS_CLUSTER: DevCluster
   CONTAINER_NAME: nginx
 
