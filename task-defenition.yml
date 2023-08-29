@@ -1,5 +1,4 @@
 {
-  "taskDefinitionArn": "arn:aws:ecs:me-south-1:624445658885:task-definition/NginxTask:1",
   "containerDefinitions": [
     {
       "name": "nginx",
@@ -60,9 +59,7 @@
   "family": "NginxTask",
   "executionRoleArn": "arn:aws:iam::624445658885:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
-  "revision": 1,
   "volumes": [],
-  "status": "ACTIVE",
   "requiresAttributes": [
     {
       "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
@@ -84,10 +81,6 @@
     }
   ],
   "placementConstraints": [],
-  "compatibilities": [
-    "EC2",
-    "FARGATE"
-  ],
   "requiresCompatibilities": [
     "FARGATE"
   ],
@@ -97,7 +90,5 @@
     "cpuArchitecture": "X86_64",
     "operatingSystemFamily": "LINUX"
   },
-  "registeredAt": "2023-08-28T08:38:48.052Z",
-  "registeredBy": "arn:aws:iam::624445658885:user/mazen",
   "tags": []
 }
